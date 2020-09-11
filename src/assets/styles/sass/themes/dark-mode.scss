@@ -1,0 +1,11 @@
+.dark-mode {
+	transition: background-color .3s, color .3s;
+	background-color: $color-background;
+	color: $color-latter;
+
+	.card-tasks--form {
+		@include card-tasks--form {
+			background-color: $color-title-form;
+		}
+	}
+}

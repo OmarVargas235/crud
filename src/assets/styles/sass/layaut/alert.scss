@@ -1,0 +1,10 @@
+.alert {
+	border: none;
+}
+
+@for $i from 1 through 4 {
+	.alert-#{nth($type-alerts, $i)} {
+		@include background(nth(map-values($type-alerts-colors), $i));
+		color: $color-latter;
+	}	
+}

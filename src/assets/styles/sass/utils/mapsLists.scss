@@ -1,0 +1,21 @@
+$type-btn: 'form', 'danger', 'update';
+$type-alerts: 'danger', 'warning', 'info', 'success';
+
+$type-btn-colors: (
+	"$color-button-save": $color-button-save,
+	"$color-delete": $color-delete,
+	"$btn-update": $btn-update,
+);
+
+$type-btn-hover: (
+	"$color-button-save": $color-button-save-hover,
+	"$color-delete": $color-button-delete-hover,
+	"$btn-update": $btn-update-hover,
+);
+
+$type-alerts-colors: (
+	"danger": $color-delete,
+	"warning": $alert-warning,
+	"info": $alert-info,
+	"success": $alert-success,
+);

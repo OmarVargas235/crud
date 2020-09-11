@@ -1,0 +1,5 @@
+.card-tasks {
+	@extend %transition-theme-background;
+	background-color: $color-card;
+	border-radius: 4px;
+}

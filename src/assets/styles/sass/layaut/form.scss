@@ -1,0 +1,11 @@
+.title {
+	@extend %transition-theme-background;
+	background-color: $color-title-form;
+	border-top-left-radius: 4px; 
+	border-top-right-radius: 4px; 
+}
+
+.card-tasks--form {
+	border-top-left-radius: 0; 
+	border-top-right-radius: 0; 
+}

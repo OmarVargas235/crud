@@ -1,0 +1,16 @@
+@import './utils/extends';
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/mapsLists';
+@import './components/cards';
+@import './components/btn';
+@import './layaut/form';
+@import './layaut/tasks';
+@import './layaut/alert';
+@import './layaut/btn-toggle';
+@import './themes/light-mode';
+@import './themes/dark-mode';
+
+body, #main {
+	min-height: 100vh;
+}

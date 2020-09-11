@@ -1,0 +1,24 @@
+@mixin btnColors($background, $color) {
+	background-color: $background;
+	color: $color;
+}
+
+@mixin background($background) {
+	background-color: $background;
+}
+
+@mixin card-tasks--form {
+	position: relative;
+
+	&::before {
+		transition: background-color .3s;
+		content: '';
+		display: block;
+		position: absolute;
+		top: -6px;
+		left: 0;
+		@content;
+		width: 100%;
+		height: 6px;
+	}
+}

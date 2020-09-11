@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>App Books</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <div id="main" class="dark-mode">
+      <div class="container pt-5">
+        <div class="d-flex justify-content-center justify-content-md-end mb-4" id="container-toggle">
+          <div class="button-toggle">
+            <input type="checkbox" class="container-toggle__checkbox" id="button-toggle">
+            <label for="button-toggle" class="container-toggle__label">
+              <img src="./iconos/moon.svg" class="container-toggle__moon">
+              <img src="./iconos/sun.svg" class="container-toggle__sun">
+            </label>
+          </div>
+        </div>
+      
+        <div class="row pb-4 justify-content-center px-4 px-md-0" id="container-form-tasks">
+          <div class="col-10 col-md-5 col-lg-4 px-0 pr-md-3 mb-3 mb-md-0">
+              <h6 class="title mb-0 text-center px-5 py-3">ADD BOOKS</h6>
+              
+              <form class="card-tasks card-tasks--form px-3 py-4 text-center">
+                <div class="form-group">
+                  <label>Book:</label>
+                  <input type="text" class="form-control" placeholder="Book...">
+                </div>
+              
+                <div class="form-group">
+                  <label>Author:</label>
+                  <input type="text" class="form-control" placeholder="Author...">
+                </div>
+              
+                <div class="form-group">
+                  <label>Sinopsis:</label>
+                  <textarea class="form-control" placeholder="Sinopsis..."></textarea>
+                </div>
+              
+                <button type="submit" class="btn btn-form btn-block">Save !</button>
+              </form>
+          </div>
+      
+          <div class="col-10 col-md-7 col-lg-8 px-0 pl-md-3" id="container-books">
+            <div class="card-tasks p-4 mb-3">
+              <h5>Lorem ipsum dolor sit amet.</h5>
+              <p class="container-book__subtitle">Lorem ipsum dolor sit.</p>
+      
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quis voluptate ipsum cupiditate? Obcaecati nesciunt culpa aspernatur ea suscipit, assumenda recusandae fuga neque beatae eligendi autem provident temporibus officiis explicabo!</p>
+      
+              <button class="btn btn-danger mb-1" name="delete">Delate book</button>
+              <button class="btn btn-update mb-1" name="update">Update book</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="./bundle.js"></script>
+    <script type="text/javascript">
+      //No eliminar.
+      const animation1 = document.querySelector('.container-toggle__sun');
+      animation1.addEventListener('transitionend', () => animation1.style.opacity = '1');
+    </script> 
+  </body>
+</html>
