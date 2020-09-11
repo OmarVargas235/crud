@@ -35,8 +35,8 @@ Abra _**http://localhost:3100**_ para verlo en el navegador.
 
 ### Imagenes de la app :flower_playing_cards:
 
-[theme-dark][./img-muestra/theme-dark.png]
-[theme-light][./img-muestra/theme-light.png]
+![theme-dark](./img-muestra/theme-dark.png)  
+![theme-light](./img-muestra/theme-light.png)
 
 ### Autor [:octocat:](https://github.com/OmarVargas235)
 
