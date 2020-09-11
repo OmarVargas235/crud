@@ -20,7 +20,7 @@ Que cosas necesitas para correr el **crud**:
 
 En el directorio del proyecto, puede ejecutar:
 
-#### ``npm start``
+#### ``npm install``
 
 Ejecuta la aplicación en modo de desarrollo.
 Abra _**http://localhost:3100**_ para verlo en el navegador.
