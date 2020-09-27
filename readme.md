@@ -32,7 +32,8 @@ Abra _**http://localhost:3100**_ para verlo en el navegador.
 2. javascript.
    * ECMAScript 6.
 3. html.
-4. css. 
+4. sass.
+5. boostrap.
 
 ### Imagenes de la app :flower_playing_cards:
 
