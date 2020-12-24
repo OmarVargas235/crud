@@ -1,5 +1,7 @@
 import './assets/styles/bootstrap.min.css';
+import './assets/styles/particle.css';
 import './assets/styles/sass/main.scss';
+import particle from './particle';
 import { UI } from './ui';
 import { Book } from './books';
 import { Alert } from './alerts';
